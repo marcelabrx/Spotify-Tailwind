@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Tailwind-->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!--Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    
+    <title>Spotify</title>
+    <!-- Window Icon -->
+    <link rel="icon" href="./img/spotify-icon.ico">
+    
+</head>
+<body class="box-border font-['Lato']">
+    <!--HEADER-->
+    <header class="flex justify-between items-center	bg-black h-14 lg:h-20">
+        <img class="bg-black w-20 h-7 m-4 lg:ml-20 lg:mt-6 lg:w-32 lg:h-10" src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_RGB_White.png" alt="spotify-logo">
+        <button class="m-4 lg:hidden">
+            <i class="fas fa-bars text-white text-2xl"></i>
+        </button>
+        <nav class="hidden lg:flex justify-between my-0.5 mr-10 items-center">
+            <a href="#" class="hidden lg:block font-bold text-white mr-10">Premium</a>
+            <a href="#" class="hidden lg:block font-bold text-white mr-10">Support</a>
+            <a href="#" class="hidden lg:block font-bold text-white mr-10">Download</a>
+            <a href="#" class="hidden lg:block font-bold text-white mr-10">Sign up</a>
+            <p class="hidden lg:block font-bold text-white mr-10">|</p>
+            <a href="#" class="hidden lg:block font-bold text-white mr-10">Log in</a>
+        </nav>
+    </header>
+    <!-- MAIN -->
+    <main class="">
+        <!--Initial Section - (blue)-->
+        <section class="h-3/5 p-4 pt-10 flex flex-col bg-[#1d75de] text-white lg:p-28">
+            <h1 class="text-3xl font-extrabold mb-6">Listen without limits</h1>
+            <p class="mb-10 font-bold text-lg">Play millions of songs ad-free, on-demand, and offline.</p>
+            <div class="md:flex">
+                <button class="bg-[#191414] font-bold p-4 mb-3 rounded-3xl text-sm md:mr-2 lg:w-1/5">GET STARTED</button>
+                <button class="mb-4 p-3 border-2 border-white rounded-3xl font-bold text-sm lg:w-1/5">VIEW PLANS</button>
+            </div>
+            <a href="#" class="mt-9 text-xs underline decoration-solid">Terms and conditions apply.</a>
+        </section>
+        <!--Explanation Spotify Section-->
+        <section class="flex flex-col p-4 pb-20 lg:h-3/5 lg:justify-center lg:align-center">
+            <h2 class="text-3xl text-center font-extrabold mt-4 lg:text-[40px] lg:mt-12">Why go Premium?</h2>
+            <div class="md:flex-wrap lg:flex lg:w-auto lg:justify-center lg:mt-6 lg:mb-6 lg:p-10 ">
+                <!-- Card Download Music-->
+                <div class="flex items-center mt-10 md:mx-16 lg:flex-col lg:mx-0 lg:px-12">
+                    <img src="https://i.scdn.co/image/ab671c3d0000f43009302fbaf6259b4c117c704f" alt="" class="w-28 h-28 lg:w-36 lg:h-36">
+                    <article class="ml-8 lg:text-center lg:ml-0 lg:mt-5">
+                        <h3 class="font-extrabold text-xl">Download music.</h3>
+                        <p>Listen anywhere.</p>
+                    </article>
+                </div>
+                <!-- Card Ad-free music listening.-->
+                <div class="flex items-center mt-10 md:mx-16 lg:flex-col lg:mx-0 lg:px-12">
+                    <img src="https://i.scdn.co/image/ab671c3d0000f43098292b95d24a697c20df5137" alt="" class="w-28 h-28 lg:w-36 lg:h-36">
+                    <article class="ml-8 lg:text-center lg:ml-0 lg:mt-5">
+                        <h3 class="font-extrabold text-xl">Ad-free music listening.</h3>
+                        <p>Enjoy nonstop music.</p>
+                    </article>
+                </div>
+                <!-- Card Play any song -->
+                <div class="flex items-center mt-10 md:mx-16 lg:flex-col lg:mx-0 lg:px-12">
+                    <img src="https://i.scdn.co/image/ab671c3d0000f4306998d3ffd58aad6da6afdf67" alt="" class="w-28 h-28 lg:w-36 lg:h-36">
+                    <article class="ml-8 lg:text-center lg:ml-0 lg:mt-5">
+                        <h3 class="font-extrabold text-xl">Play any song.</h3>
+                        <p>Even on mobile.</p>
+                    </article>
+                </div>
+                <!-- Card Unlimited skips -->
+                <div class="flex items-center mt-10 md:mx-16 lg:flex-col lg:mx-0 lg:px-12">
+                    <img src="https://i.scdn.co/image/ab671c3d0000f430cd6c528745e510c5be63a012" alt="" class="w-28 h-28 lg:w-36 lg:h-36">
+                    <article class="ml-8 lg:text-center lg:ml-0 lg:mt-5">
+                        <h3 class="font-extrabold text-xl">Unlimited skips.</h3>
+                        <p>Just hit next.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!-- Plan options section -->
+        <section class="bg-[#ebebeb] pb-3">
+            <h2 class="text-3xl text-center font-extrabold pt-7 mb-4 lg:pt-14 lg:text-[40px]">Pick your Premium</h2>
+            <p class="mb-5 text-center text-s">Listen without limits on your phone, speaker, and other devices.</p>
+            <div class="flex justify-center items-center">
+                <img src="https://content-tooling.spotifycdn.com/images/a3ca7356-b14f-4a89-8dcf-f79a6ab3902e_visa.svg" alt="visa_card" class="mr-3">
+                <img src="https://content-tooling.spotifycdn.com/images/79385e93-656c-486e-9087-28c14cef5899_mastercard.svg" alt="master_card" class="mr-3">
+                <img src="https://content-tooling.spotifycdn.com/images/6ddd2e24-3733-4900-a525-b34f6ff0f6e2_amex.svg" alt="amex_card" class="mr-3">
+                <img src="https://content-tooling.spotifycdn.com/images/58e5e857-6178-404f-9d8f-ca958dfd3759_discover.svg" alt="discover_network" class="w-7 h-7 mr-3">
+                <img src="https://i.scdn.co/image/ab671c3d0000f43009f105c560eae70789974510" alt="paypal" class="w-7 h-5">
+            </div>
+            <!-- Box Plan Section  -->
+            <div class="lg:grid lg:grid-cols-4 lg:col-span-1 lg:grid-flow-col lg:px-10 lg:m-14">
+                <!-- Suscription Individual Plan - Section-->
+                <div class="flex flex-col bg-white p-5 m-14 mb-5 rounded-lg shadow-md lg:w-4/4 lg:h-4/4 lg:m-0 lg:mr-3.5 lg:p-6">
+                    <span class="bg-[#0D72EA] w-24 p-1 rounded font-bold text-white text-sm text-center">1 month free</span>
+                    <h3 class="text-2xl font-bold mt-2 mb-2">Individual</h3>
+                    <p class="">$9.99/month after offer period</p>
+                    <p class="mb-2">1 account</p>
+                    <hr class="w-70 h-1 border-black text-center mt-4 mb-6"></hr>
+                    <div class="flex items-center mb-3">
+                        <i class="fa-solid fa-check mr-3"></i>
+                        <p>Ad-free music listening</p>
+                    </div>
+                    <div class="flex items-center mb-3">
+                        <i class="fa-solid fa-check mr-3"></i>
+                        <p>Play anywhere - even offline</p>
+                    </div>
+                    <div class="flex items-center mb-3">
+                        <i class="fa-solid fa-check mr-3"></i>
+                        <p>On-demand playback</p>
+                    </div>
+                    <button class="bg-[#191414] font-bold p-4 mt-6 mb-3 rounded-3xl text-sm text-white">GET STARTED</button>
+                    <div class="flex items-center justify-center mt-3">
+                        <p class="text-xs">
+                            <a href="#" class="mt-9 text-xs underline decoration-solid">Terms and conditions apply.</a> 1 month free not <br> available for users who have already tried Premium.
+                        </p>
+                    </div>
+                </div>
+                <!-- Suscription Plan Duo - Section-->
+                <div class="flex flex-col bg-white p-5 m-14 mb-5 rounded-lg shadow-md lg:w-4/4 lg:h-4/4 lg:m-0 lg:mr-3.5 ">
+                    <span class="bg-[#0D72EA] w-24 p-1 rounded font-bold text-white text-sm text-center">1 month free</span>
+                    <h3 class="text-2xl font-bold mt-2 mb-2">Duo</h3>
+                    <p class="">$12.99/month after offer period</p>
+                    <p class="mb-2">2 accounts</p>
+                    <hr class="w-70 h-1 border-black text-center mt-4 mb-6"></hr>
+                    <div class="flex items-center mb-3">
+                        <i class="fa-solid fa-check mr-3"></i>
+                        <p>2 Premium accounts for a couple under one roof</p>
+                    </div>
+                    <div class="flex items-center mb-3">
+                        <i class="fa-solid fa-check mr-3"></i>
+                        <p>Ad-free music listening, play offline, on-demand playback</p>
+                    </div>
+                    <button class="bg-[#191414] font-bold p-4 mt-6 mb-3 rounded-3xl text-sm text-white">GET STARTED</button>
+                    <div class="flex items-center justify-center mt-3">
+                        <p class="text-xs">
+                            <a href="#" class="mt-9 text-xs underline decoration-solid">Terms and conditions apply.</a> 1 month free not <br> available for users who have already tried Premium.
+                        </p>
+                    </div>
+                </div>
+                <!-- Suscription Family Plan - Section -->
+                <div class="flex flex-col bg-white p-5 m-14 mb-10 rounded-lg shadow-md lg:w-4/4 lg:h-4/4 lg:m-0 lg:mr-3.5 ">
+                    <span class="bg-[#0D72EA] w-24 p-1 rounded font-bold text-white text-sm text-center">1 month free</span>
+                    <h3 class="text-2xl font-bold mt-2 mb-2">Family</h3>
+                    <p class="">$15.99/month after offer period</p>
+                    <p class="mb-2">6 accounts</p>
+                    <hr class="w-70 h-1 border-black text-center mt-4 mb-6"></hr>
+                    <div class="flex items-center mb-3">
+                        <i class="fa-solid fa-check mr-3"></i>
+                        <p>6 Premium accounts for family members living under one roof</p>
+                    </div>
+                    <div class="flex items-center mb-3">
+                        <i class="fa-solid fa-check mr-3"></i>
+                        <p>Block explicit music</p>
+                    </div>
+                    <div class="flex items-center mb-3">
+                        <i class="fa-solid fa-check mr-3"></i>
+                        <p>Ad-free music listening, play offline, on-demand playback</p>
+                    </div>
+                    <div class="flex items-center mb-3">
+                        <i class="fa-solid fa-check mr-3"></i>
+                        <p>Spotify Kids: a separate app made just for kids</p>
+                    </div>
+                    <button class="bg-[#191414] font-bold p-4 mt-6 mb-3 rounded-3xl text-sm text-white">GET STARTED</button>
+                    <div class="flex items-center justify-center mt-3">
+                        <p class="text-xs">
+                            <a href="#" class="mt-9 text-xs underline decoration-solid">Terms and conditions apply.</a> 1 month free not <br> available for users who have already tried Premium.
+                        </p>
+                    </div>
+                </div>
+                <!-- Suscription Student Plan - Section -->
+                <div class="flex flex-col bg-white p-5 m-14 rounded-lg shadow-md lg:w-4/4 lg:h-4/4 lg:m-0">
+                    <span class="bg-[#0D72EA] w-24 p-1 rounded font-bold text-white text-sm text-center">1 month free</span>
+                    <h3 class="text-2xl font-bold mt-2 mb-2">Student</h3>
+                    <p class="">$4.99/month after offer period</p>
+                    <p class="mb-2">1 account</p>
+                    <hr class="w-70 h-1 border-black text-center mt-4 mb-6"></hr>
+                    <div class="flex items-center mb-3">
+                        <i class="fa-solid fa-check mr-3"></i>
+                        <p>Hulu (With Ads) plan</p>
+                    </div>
+                    <div class="flex items-center mb-3">
+                        <i class="fa-solid fa-check mr-3"></i>
+                        <p>SHOWTIME</p>
+                    </div>
+                    <div class="flex items-center mb-3">
+                        <i class="fa-solid fa-check mr-3"></i>
+                        <p>Ad-free music listening</p>
+                    </div>
+                    <div class="flex items-center mb-3">
+                        <i class="fa-solid fa-check mr-3"></i>
+                        <p>Play anywhere - even offline</p>
+                    </div>
+                    <div class="flex items-center mb-3">
+                        <i class="fa-solid fa-check mr-3"></i>
+                        <p>On-demand playback</p>
+                    </div>
+                    <button class="bg-[#191414] font-bold p-4 mt-6 mb-3 rounded-3xl text-sm text-white">GET STARTED</button>
+                    <div class="flex items-center justify-center mt-3">
+                        <p class="text-xs">
+                            <a href="#" class="mt-9 text-xs underline decoration-solid">Terms and conditions apply.</a> 1 month free not <br> available for users who have already tried Premium.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- FOOTER -->
+    <footer class="bg-black">
+        <div class="lg:flex lg:justify-between lg:align-center lg:pt-20 px-10">
+            <img class="w-22 h-16 px-3 pt-10 mb-10 lg:w-28 lg:h-26" src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_RGB_White.png" alt="spotify-logo">
+            <div class="flex flex-col ml-4 mb-10 font-extrabold text-sm">
+                <h3 class="text-[#919496] mb-5">COMPANY</h3>
+                <a href="#" class="mb-3 text-white ">About</a>
+                <a href="#" class="mb-3 text-white">Jobs</a>
+                <a href="#" class="mb-3 text-white">For the Record</a>
+            </div>
+            <div class="flex flex-col ml-4 mb-10 font-extrabold text-sm">
+                <h3 class="text-[#919496] mb-5">COMMUNITIES</h3>
+                <a href="#" class="mb-3 text-white ">For Artists</a>
+                <a href="#" class="mb-3 text-white">Developers</a>
+                <a href="#" class="mb-3 text-white">Advertising</a>
+                <a href="#" class="mb-3 text-white">Investors/a>
+                <a href="#" class="mb-3 text-white">Vendors</a>
+            </div>
+            <div class="flex flex-col ml-4 mb-10 font-extrabold text-sm">
+                <h3 class="text-[#919496] mb-5">USEFUL LINKS</h3>
+                <a href="#" class="mb-3 text-white ">Support</a>
+                <a href="#" class="mb-3 text-white">Support</a>
+                <a href="#" class="mb-3 text-white">Free Mobile App</a>
+            </div>
+            <ul class="flex lg:ml-8">
+                <li class="w-12 h-12 flex justify-center align-center pt-3 m-3 bg-[#222326] list-none rounded-3xl">
+                    <a href="#" class="">
+                        <img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 448' fill='%23222326'%3E%3Cpath d='M0 230.126v-.793c.016 55.974.294 63.853 1.344 87.03 3.733 81.349 48.87 126.56 130.293 130.293C155.55 447.739 163.165 448 224 448H0V230.126zm229.242-189.75c55.006.014 62.368.256 85.291 1.307 60.704 2.762 89.059 31.565 91.822 91.821 1.05 22.905 1.275 30.266 1.287 85.272v10.487c-.014 55.022-.255 62.365-1.287 85.27-2.782 60.2-31.062 89.059-91.822 91.822-23.159 1.06-30.399 1.297-87.005 1.306h-7.054c-56.572-.009-63.848-.245-86.989-1.306-60.853-2.782-89.058-31.715-91.821-91.84-1.05-22.905-1.292-30.249-1.306-85.271v-8.77c.01-56.572.263-63.83 1.306-86.989 2.781-60.237 31.061-89.058 91.821-91.821 22.923-1.032 30.268-1.274 85.273-1.287h10.484zm-5.242 68.6c-63.523 0-115.024 51.501-115.024 115.024S160.477 339.043 224 339.043 339.024 287.54 339.024 224c0-63.523-51.501-115.024-115.024-115.024zm0 40.357c41.235 0 74.667 33.432 74.667 74.667 0 41.253-33.432 74.667-74.667 74.667S149.333 265.253 149.333 224c0-41.235 33.432-74.667 74.667-74.667zM343.579 77.56c-14.859 0-26.899 12.04-26.899 26.88s12.04 26.88 26.899 26.88c14.84 0 26.861-12.04 26.861-26.88s-12.021-26.88-26.861-26.88zM448 224v224H224c60.835 0 68.47-.261 92.363-1.344 81.274-3.733 126.597-48.87 130.274-130.293C447.74 292.469 448 284.835 448 224zm-1.344-92.344c-3.659-81.275-48.85-126.56-130.275-130.293C293.187.294 285.307.016 229.333 0H448v224c0-60.835-.261-68.45-1.344-92.344zM0 0h218.667c-55.973.016-63.834.294-87.011 1.344C50.306 5.077 5.096 50.214 1.363 131.637.299 154.722.019 162.62 0 217.873V0z'/%3E%3C/svg%3E" alt="media_instagram" class="w-6 h-6 bg-white">
+                    </a>
+                </li>
+                <li class="w-12 h-12 flex justify-center align-center pt-3 m-3 bg-[#222326] list-none rounded-3xl">
+                    <a href="#"><img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 448' fill='%23222326'%3E%3Cpath d='M448 0v448H0V0h448zM299.75 64c-22.333 0-41.375 7.875-57.125 23.625S219 122.417 219 144.75c0 6 .667 12.167 2 18.5-33-1.667-63.958-9.958-92.875-24.875S74.667 103.583 54.5 78.75c-7.333 12.5-11 26.083-11 40.75 0 13.833 3.25 26.667 9.75 38.5 6.5 11.833 15.25 21.417 26.25 28.75-12.717-.49-24.637-3.77-35.76-9.841L43 176.5v1c0 19.5 6.125 36.625 18.375 51.375s27.708 24.042 46.375 27.875a83.54 83.54 0 01-21.25 2.75c-4.667 0-9.75-.417-15.25-1.25 5.167 16.167 14.667 29.458 28.5 39.875 13.833 10.417 29.5 15.792 47 16.125-29.333 23-62.75 34.5-100.25 34.5-7.167 0-13.667-.333-19.5-1C64.5 371.917 105.833 384 151 384c28.667 0 55.583-4.542 80.75-13.625s46.667-21.25 64.5-36.5 33.208-32.792 46.125-52.625c12.917-19.833 22.542-40.542 28.875-62.125 6.333-21.583 9.5-43.208 9.5-64.875 0-4.667-.083-8.167-.25-10.5 15.833-11.5 29.333-25.417 40.5-41.75-15.5 6.667-31 10.833-46.5 12.5C392 104 403.833 89.167 410 70c-16 9.5-33.083 16-51.25 19.5-16-17-35.667-25.5-59-25.5z'/%3E%3C/svg%3E" alt="media__twitter" class="w-7 h-7 bg-white"></a>
+                </li>
+                <li class="w-12 h-12 flex justify-center align-center pt-3 m-3 bg-[#222326] list-none rounded-3xl">
+                    <a href="#"><img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 448' fill='%23222326'%3E%3Cpath d='M448 0v448H0V0h448zM276.877 16h-1.127c-28.833 0-51.917 8.542-69.25 25.625-17.16 16.912-25.826 40.645-25.997 71.197l-.003.928v54.5h-63.75v74h63.75V432H257V242.25h63.5l9.75-74H257V121c0-12 2.5-21 7.5-27 4.923-5.908 14.37-8.907 28.342-8.998L293.5 85h39.25V19c-13.085-1.938-31.336-2.938-54.754-2.997l-1.12-.003z'/%3E%3C/svg%3E" alt="media__facebook" class="w-7 h-7 bg-white"></a>
+                </li>
+            </ul>
+        </div>
+        <div class="lg:mx-10">
+            <div class="flex align-center justify-end text-[#919496]">
+                <i class="fa-solid fa-earth-americas mt-2 text-[11px]"></i><span class="mx-2 mt-2 text-[10px]">USA</span>
+            </div>
+            <div class="flex text-[9px] text-[#919496] pb-3 lg:text-[12px]">
+                <ul class="flex align-center grow m-[0 45px 0 0]">
+                    <a href="#" class="p-[10px]">Legal</a>
+                    <a href="#" class="p-[10px]">Privacy Center</a>
+                    <a href="#" class="p-[10px]">Privacy Policy</a>
+                    <a href="#" class="p-[10px]">Cookies</a>
+                    <a href="#" class="p-[10px]">About Ads</a>
+                    <button class="">Cookies Settings</button>
+                </ul>
+                <span class="p-[10px]">© 2023 Spotify AB</span>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
